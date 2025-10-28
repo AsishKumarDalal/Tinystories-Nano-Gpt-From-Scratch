@@ -122,33 +122,8 @@ The model learns to generate coherent short stories in the style of the TinyStor
 
 - Train/validation loss curves
 - Sample generation at each epoch
-- Token-level cross-entropy loss
+- Token-level cross-entropy 
 
-## Project Structure
-
-
-├── Data Loading
-│   ├── Dataset tokenization
-│   ├── Binary file creation
-│   └── Memory-mapped batch generation
-│
-├── Model Architecture
-│   ├── GPT (main model class)
-│   ├── TransformerBlock
-│   ├── MultiHeadAttention
-│   ├── FeedForward
-│   └── LayerNorm
-│
-├── Training Loop
-│   ├── Batch processing
-│   ├── Loss calculation
-│   ├── Gradient updates
-│   └── Evaluation
-│
-└── Generation
-    ├── Text encoding/decoding
-    ├── Temperature sampling
-    └── Top-k filtering
 
 
 ## Key Learning Outcomes
